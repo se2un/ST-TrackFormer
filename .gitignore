@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+**/__pycache__/**
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg-info
+.eggs/
+
+# Virtual environments
+LS/
+standard/
+venv/
+env/
+
+# Model checkpoints (large binary files — download separately)
+models/**/*.pth
+models/**/*.pth.tar
+models/**/*.zip
+models/trackformer_models_v1.zip
+
+# Data (download separately, see README)
+data/MOT16/
+data/MOT16.zip
+data/MOT17/
+data/MOT20/
+data/MOT20.zip
+data/MOTS20/
+data/CrowdHuman/
+data/coco_2017/
+data/people/
+data/snakeboard/
+
+# Compiled ops
+src/trackformer/models/ops/build/
+src/trackformer/models/ops/build*
+src/trackformer/models/ops/dist*
+src/trackformer/models/ops/lib*
+src/trackformer/models/ops/temp*
+MultiScaleDeformableAttention.egg-info/
+dist/
+
+# Logs and outputs
+logs/
+*.log
+
+# IDE / OS
+.vscode
+.idea/
+.DS_Store
+.dumbo.json
+Thumbs.db
+.*.swp
+*.swp
+.python-version
+*.sbatch
+*.tmp
+*.pkl
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+**/.mypy_cache/
+
+# Sacred / submitit
+experiment-*
+not_tracked_dir/
+my_runs/
+.nfs*
