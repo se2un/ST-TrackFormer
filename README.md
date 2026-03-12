@@ -193,8 +193,8 @@ Tracking configuration can be adjusted in `cfgs/track.yaml`.
 
 | Method | Recall | MT | PT | FN | MOTA | IDF1 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| TrackFormer | 74.3 | 50.0 | 49.79 | 50.72 | 71.4 | 78.1 |
-| **ST-TrackFormer** | **75.1** | **50.0** | **50.21** | **49.28** | **72.4** | **77.7** |
+| TrackFormer | 74.3 | **50.0** | 49.79 | 50.72 | 71.4 | **78.1** |
+| **ST-TrackFormer** | **75.1** | **50.0** | **50.21** | **49.28** | **72.4** | 77.7 |
 
 ### MOT17
 
