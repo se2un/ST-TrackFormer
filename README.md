@@ -227,7 +227,7 @@ Comparison of different Spatial-Temporal Attention combinations:
 
 ### Qualitative Results
 
-Comparison of tracking results on MOT16 between TrackFormer (a) and ST-TrackFormer (b):
+The left image shows tracking results from TrackFormer, and the right image shows results from ST-TrackFormer on the MOT16 benchmark. ST-TrackFormer produces more accurate and consistent bounding boxes.
 
 <div align="center">
     <img src="docs/tracking_comparison.png" alt="Tracking comparison on MOT16" width="700"/>
